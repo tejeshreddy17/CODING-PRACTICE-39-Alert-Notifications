@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.container-notification {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 480px;
+}
+@media screen and (min-width: 576px) {
+  .container-notification {
+    max-width: 700px;
+  }
+}
+.close-button {
+  align-self: center;
+  font-size: 24px;
+}
+.close-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  margin-left: 30px;
+}
